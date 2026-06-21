@@ -27,9 +27,7 @@ The processor datapath is partitioned into the following sequential pipeline sta
 5. **Write-Back (WB):** Routes instruction results or memory-loaded data back to the register file destination register.
 
 ### Datapath Block Diagram
-```
-[Insert Datapath Block Diagram Here]
-```
+![Datapath Block Diagram](docs/datapath_block_diagram.png)
 
 ### Hazard Resolution Logic
 To maintain pipeline execution flow and avoid data corruption or erroneous control paths, the processor includes dedicated hardware units for hazard resolution:
