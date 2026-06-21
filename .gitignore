@@ -1,0 +1,41 @@
+# Quartus Prime and ModelSim / QuestaSim generated files
+db/
+incremental_db/
+simulation/
+output_files/
+hc_output/
+*.rpt
+*.summary
+*.sof
+*.pof
+*.pin
+*.sld
+*.done
+*.smsg
+*.jdi
+*.map
+*.fit
+*.pin
+*.qmsg
+*.dpf
+*.txt
+*.hex
+*.bak
+*.bak[0-9]*
+*.vo
+*.sft
+*_modelsim.xrf
+*.do.bak*
+msim_transcript
+modelsim.ini
+
+# ModelSim work directory and transcripts
+work/
+rtl_work/
+transcript
+
+# OS/Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
